@@ -1,1 +1,1 @@
-console.log("holi");
+export const a = 2;
