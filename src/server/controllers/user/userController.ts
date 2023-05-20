@@ -13,6 +13,7 @@ export const loginUser = async (
   const { username, password } = req.body;
   try {
     const user = await User.findOne({ username });
+
     if (!user || !(await bcrypt.compare(password, user.password))) {
       const error = new CustomError(401, "Wrong credential");
 
