@@ -5,6 +5,7 @@ import app from "./server/index.js";
 import connectToDatabase from "./connectToDatabase.js";
 
 const debug = createDebug("users-api:root");
+
 const port = process.env.PORT ?? 4000;
 const mongoDbConnection = process.env.MONGO_DB_CONNECTION;
 
