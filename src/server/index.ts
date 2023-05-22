@@ -6,7 +6,7 @@ import userRouter from "./routers/user/userRouter.js";
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "http://202304-w7chwe-pol-usieto-front.netlify.app/",
+  "http://202304-w7chwe-pol-usieto-front.netlify.app",
 ];
 
 const options: cors.CorsOptions = {
